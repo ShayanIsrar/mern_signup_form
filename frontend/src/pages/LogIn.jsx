@@ -25,7 +25,7 @@ const LogIn = () => {
         }
 
         try {
-            const url = 'https://mern-signup-form-psi.vercel.app/auth/login';
+            const url = 'https://mern-signup-form-zofm.vercel.app/auth/login';
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
