@@ -23,7 +23,7 @@ const Home = () => {
 
     const fetchProducts = async ()=>{
         try {
-            const url = 'https://mern-signup-form-psi.vercel.app/products';
+            const url = 'https://mern-signup-form-zofm.vercel.app/products';
             const headers = {
                 headers:{
                     'Authorization': localStorage.getItem('token')
